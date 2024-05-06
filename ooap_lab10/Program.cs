@@ -60,7 +60,7 @@ public class ScenarioTwo : IGameStrategy
 {
     public string StartChallenge(List<Character> characters)
     {
-        Console.WriteLine("Scenario one has Water and Mountain challenge");
+        Console.WriteLine("Scenario two has Water and Mountain challenge");
         foreach (var character in characters)
         {
             if (character.MagicArtefacts == "Water + Mountain")
@@ -75,7 +75,7 @@ public class ScenarioThree : IGameStrategy
 {
     public string StartChallenge(List<Character> characters)
     {
-        Console.WriteLine("Scenario one has Water and Forest challenge");
+        Console.WriteLine("Scenario three has Water and Forest challenge");
         foreach (var character in characters)
         {
             if (character.MagicArtefacts == "Water + Forest")
@@ -90,7 +90,7 @@ public class ScenarioFour : IGameStrategy
 {
     public string StartChallenge(List<Character> characters)
     {
-        Console.WriteLine("Scenario one has Forest challenge");
+        Console.WriteLine("Scenario four has Forest challenge");
         foreach (var character in characters)
         {
             if (character.MagicArtefacts.Contains("Forest"))
